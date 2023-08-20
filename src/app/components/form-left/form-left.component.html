@@ -1,0 +1,15 @@
+
+<div class="row" id="row" style="margin-top: 10%">
+    <div class="input-field col s8">
+        <h4>Digite uma letra</h4>
+        <input id="input" placeholder="Digite uma letra" id="letter" type="text" class="validate" name="letter" [(ngModel)]="letter" ng-disabled="disable">
+        <button class="btn large" (click)="handleClick()">ENVIAR LETRA</button>
+    </div><br>
+</div>
+<div class="row" id="row">
+    <div class="input-field col s8">
+        <h4>Tente adivinhar a palavra</h4>
+        <input id="input" placeholder="Digite uma palavra" id="word" type="text" class="validate" [(ngModel)]="word">
+        <button class="btn large" (click)="handleClick2()">ENVIAR PALAVRA</button>
+    </div>
+</div>

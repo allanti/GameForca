@@ -1,0 +1,23 @@
+button{
+    width: 100%;
+    background-color: #ebf74f;
+    font-weight: bold;
+    color: #000000;
+}
+
+h4{
+    color: #000000;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+#row{
+    margin-left: 23%;
+}
+
+input{
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}

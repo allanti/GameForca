@@ -1,0 +1,17 @@
+#score{
+    font-weight: bold;
+}
+
+p{
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.card{
+    background-color: #b0c65a;
+}
+
+.card-title{
+    text-align: center;
+    color: black;
+}
